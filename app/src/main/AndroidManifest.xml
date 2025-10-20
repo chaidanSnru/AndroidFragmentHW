@@ -20,7 +20,7 @@
 
         <!-- หน้าเริ่มต้นเดิมของแอพ -->
         <activity
-            android:name=".A66102122108Activity"
+            android:name=".A66102122105Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
