@@ -13,18 +13,18 @@
 
         <ImageView
             android:id="@+id/img_me"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
+            android:layout_width="296dp"
+            android:layout_height="366dp"
             android:layout_marginBottom="16dp"
             android:contentDescription="@string/app_name"
             android:scaleType="centerCrop"
-            android:src="@drawable/img_66102122108" />
+            android:src="@drawable/k" />
 
         <TextView
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ชินดนัย สุขรี"
+            android:text="นาย ภูธิป ประเสริฐสังข์"
             android:textSize="20sp"
             android:textStyle="bold" />
 

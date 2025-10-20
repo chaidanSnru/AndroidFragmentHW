@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-class ProfileFragment : Fragment() {   // ชื่อคลาสเป็น ProfileFragment ก็ได้
+class ProfileFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
+
         savedInstanceState: Bundle?
     ): View? {
-        // 👇 เปลี่ยนบรรทัดนี้ให้ตรงชื่อไฟล์ layout
-        return inflater.inflate(R.layout.fragment_profile108, container, false)
+        return inflater.inflate(R.layout.fragment_profile135, container, false)
     }
 }
