@@ -13,12 +13,12 @@
         android:theme="@style/Theme.AndroidFragmentHW"
         tools:targetApi="31">
 
-        <!-- Activity ใหม่ของงานนี้ (ไม่ต้องเป็น LAUNCHER) -->
+        <!-- ของเดิม: MainActivity (ไม่เป็น LAUNCHER ในโปรเจ็กต์นี้) -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
 
-        <!-- หน้าเริ่มต้นเดิมของแอพ -->
+        <!-- ของเดิม: เพื่อน (ยังคงไว้ และเป็น LAUNCHER ตามที่โปรเจ็กต์ตั้ง) -->
         <activity
             android:name=".A66102122108Activity"
             android:exported="true">
@@ -27,6 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- ของเรา: เพิ่มเข้ามาเฉย ๆ ไม่ต้องเป็น LAUNCHER -->
+        <activity
+            android:name=".A66102122116Activity"
+            android:exported="false" />
 
     </application>
 </manifest>
