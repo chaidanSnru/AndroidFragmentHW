@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Static Fragment ถูกฝังใน XML เลย -->
+
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.example.androidfragmenthw.ProfileFragment"
