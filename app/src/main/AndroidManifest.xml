@@ -34,6 +34,8 @@
         <activity
             android:name=".A66102122116Activity"
             android:exported="false" />
-
+        <activity android:name=".A66102122128Activity" android:exported="false" />
     </application>
+
+
 </manifest>
