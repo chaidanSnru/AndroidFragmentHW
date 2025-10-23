@@ -14,7 +14,7 @@
             android:id="@+id/img_me"
             android:layout_width="220dp"
             android:layout_height="220dp"
-            android:src="@drawable/img_66102122105"
+            android:src="@drawable/img_66102122108"
             android:scaleType="centerCrop"
             android:contentDescription="Profile Image"/>
 
@@ -22,8 +22,9 @@
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A66102122105"
+            android:text="=ชินดนัย สุขรี"
             android:textSize="20sp"
             android:textStyle="bold"/>
+
     </LinearLayout>
 </ScrollView>
