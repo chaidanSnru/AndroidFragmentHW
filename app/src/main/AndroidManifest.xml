@@ -20,7 +20,7 @@
 
         <!-- ของเดิม: เพื่อน (ยังคงไว้ และเป็น LAUNCHER ตามที่โปรเจ็กต์ตั้ง) -->
         <activity
-            android:name=".A66102122108Activity"
+            android:name=".A66102122105Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
